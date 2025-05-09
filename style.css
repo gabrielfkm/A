@@ -1,162 +1,380 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Helvetica', sans-serif;
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Travel Site</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head><body><header><nav>
+
+    <div>日本  Japão</div>
+
+    <div>
+
+        <a href="#">Economia</a>
+
+        <a href="#">Turismo </a>
+
+        <a href="#">Cultura</a>
+
+    </div>
+
+</nav>
+
+</header><div class="container"><div class="bloco">  
+
+    <div class="bloco1">
+
+        <section>
+
+            <h1>Japão: Terra do Sol Nascente</h1>
+
+            <p>Uma jornada pela história, cultura e curiosidades deste país fascinante.</p>
+
+            <button class="btn">Saiba mais</button>
+
+        </section>
+
+    </div>
+
+    <div class="card1"><img alt=""><p>Cultura</p></div>
+
+    <div class="card2"><img alt=""><p>Economia</p></div>
+
+    <div class="card2"><img alt=""><p>Turismo</p></div>
+
+</div>
+
+<section>
+
+    <h2>Principais pontos turísticos</h2>
+
+    <div class="grid">
+
+        <div class="card"><img alt=""><p>Tóquio</p></div>
+
+        <div class="card"><img alt=""><p>Kyoto</p></div>
+
+        <div class="card"><img alt=""><p>Nara</p></div>
+
+        <div class="card"><img alt=""><p>Osaka</p></div>
+
+        <div class="card"><img alt=""><p>Hiroshima + Miyagima</p></div>
+
+    </div>
+
+</section>
+
+
+
+<section>
+
+    <h2>Latest Stories</h2>
+
+    <div class="grid">
+
+        <div class="story"><img alt=""><p>10 things to try in Los Angeles</p></div>
+
+        <div class="story"><img alt=""><p>Best Markets in South London</p></div>
+
+        <div class="story"><img alt=""><p>Hotels around the world</p></div>
+
+        <div class="story"><img alt=""><p>Budget travel tips</p></div>
+
+    </div>
+
+</section>
+
+
+
+<section>
+
+    <h2>Trekker’s Highlights</h2>
+
+    <div class="grid">
+
+        <div class="highlight">
+
+            <p><strong>Maria Angelica</strong><br>An unforgettable journey through Turkey.</p>
+
+        </div>
+
+        <div class="highlight"><img alt=""><p>Photo highlight</p></div>
+
+        <div class="highlight"><img alt=""><p>Video highlight</p></div>
+
+    </div>
+
+</section>
+
+
+
+<section class="newsletter">
+
+    <h2>Get Your Travel Inspiration Straight to Your Inbox</h2>
+
+    <input type="email" placeholder="Your email">
+
+    <button class="btn">Subscribe</button>
+
+</section>
+
+</div><footer><p>&copy; 2025 Travel Site. All rights reserved.</p>
+
+</footer></body></html>                                                                                                                                                            * { box-sizing: border-box; 
+
+margin: 0; 
+
+padding: 0;
+
 }
 
 body {
-    background-color: #fdf8f3;
-    color: #333;
+
+font-family: Arial, sans-serif; 
+
+line-height: 1.6;
+
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-    background: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
+header {
+
+background-color: #ffffff;
+
+padding: 1rem 2rem;
+
+width: 80%; 
+
+max-width: 800px; 
+
+margin: 2rem auto; 
+
+border-radius: 20px; 
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
+footer {
+
+background: #f8f8f8; 
+
+padding: 20px;
+
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
+nav {
+
+display: flex; 
+
+justify-content: space-between; 
+
+align-items: center;
+
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
+nav a {
+
+margin: 0 10px; 
+
+text-decoration: none; 
+
+color: #333;
+
 }
 
-.contact-btn {
-    padding: 10px 20px;
-    background-color: #b70000;
+.btn {
+
+background: black; 
+
+color: white; 
+
+padding: 8px 16px; 
+
+border: none; 
+
+border-radius: 4px; 
+
+cursor: pointer;
+
+}
+
+.container {
+
+h1 {
+
+    color: white
+
+}
+
+p {
+
     color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
+
 }
 
-.hero {
-    height: 90vh;
-    background: url('https://images.unsplash.com/photo-1586500051027-42e85be52e4f') no-repeat center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+background-image: url('japao.jpg'); 
+
+background-size: cover;             
+
+background-position: center;        
+
+border-radius: 15px;                
+
+padding: 20px;                      
+
+color: white;                       
+
+margin: 20px auto;                  
+
+max-width: 1850px;                   
+
+box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+
 }
 
-.hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.3);
+h2 {
+
+margin: 20px 0; 
+
+color: black;
+
 }
 
-.hero-content {
-    color: white;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
+.grid {
+
+display: grid; 
+
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+
+gap: 20px;
+
 }
 
-.hero-content h1 {
-    font-size: 2.8em;
-    margin-bottom: 20px;
+.card, .story, .highlight {
+
+background: #eee; 
+
+padding: 20px; 
+
+border-radius: 8px; 
+
+color: black;
+
 }
 
-.hero-content p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
+.card img, .story img, .highlight img {
+
+width: 100%; 
+
+height: 150px; 
+
+background: #ccc; 
+
+border-radius: 8px;
+
 }
 
-.start-btn {
-    padding: 12px 30px;
-    background-color: #b70000;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 1em;
-    cursor: pointer;
+footer {
+
+text-align: center; 
+
+font-size: 14px; }
+
+.newsletter input {
+
+padding: 10px; 
+
+width: 70%; 
+
+border: 1px solid #ccc; 
+
+border-radius: 4px; 
+
+margin-right: 10px;
+
 }
 
-.intro {
-    display: flex;
-    justify-content: space-around;
-    padding: 60px;
-    background: #fff;
+.newsletter button {
+
+padding: 10px 20px;
+
 }
 
-.intro-card, .intro-about {
-    width: 45%;
-    background: #f8f1e8;
-    padding: 30px;
-    border-radius: 12px;
+@media (max-width: 768px) {
+
+nav { 
+
+    flex-direction: column; 
+
+    align-items: flex-start; 
+
 }
 
-.services {
-    padding: 60px;
-    background: #f6f2ed;
+.newsletter input { 
+
+    width: 100%; 
+
+    margin-bottom: 10px; 
+
 }
 
-.services h2 {
-    text-align: center;
-    margin-bottom: 40px;
 }
 
-.service-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
+h1 {
+
+color: black
+
 }
 
-.service-item img {
-    width: 50%;
-    border-radius: 12px;
+p {
+
+color: black;
+
 }
 
-.service-text {
-    width: 50%;
+.bloco {
+
+border-radius: 15px;
+
+width: 900px;
+
+height: 500px;
+
+background-image: url(./img/japao.jpg);
+
+background-size: cover; 
+
+background-position: center;
+
 }
 
-.service-text h3 {
-    margin-bottom: 15px;
+.card1 {
+
+background: #eee; 
+
+padding: 20px; 
+
+border-radius: 8px; 
+
+color: black;
+
 }
 
-.why-choose {
-    padding: 60px;
-    background: #fff;
+.card2 {
+
+background: #eee; 
+
+width: 500px;
+
+height: 200px;
+
+padding: 20px; 
+
+border-radius: 8px; 
+
+color: black;
+
 }
 
-.why-choose h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.feature-card {
-    width: 200px;
-    background: #f8f1e8;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-}
