@@ -71,7 +71,13 @@ h2 {
     gap: 20px;
 }
 
-
+.card_intro {
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    color: black;
+    width: 50%;
+}
 .card, .story, .highlight, .card_sup, .cards_inf {
     background: #eee;
     padding: 20px;
