@@ -71,7 +71,7 @@ h2 {
     gap: 20px;
 }
 
-/* Cards reutilizados */
+
 .card, .story, .highlight, .card_sup, .cards_inf {
     background: #eee;
     padding: 20px;
