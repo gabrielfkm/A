@@ -73,6 +73,7 @@ h2 {
     border-radius: 8px;
     color: black;
     max-width: 1850px;
+    display: flex;
 }
 .card_intro {
     background-image: url('./img/card_intro.jpg');
