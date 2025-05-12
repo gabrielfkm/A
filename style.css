@@ -108,11 +108,18 @@ h2 {
         color: black;
     }
 
-    .card_sup, .cards_inf {
+    .card_sup {
         background-image: url('card_cultura.jpeg');
         padding: 20px;
         border-radius: 8px;
         width: 100%;
+        max-width: 930px;
         height: auto;
     }
+    cards_inf {
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 450px;
+        height: auto;
 }
