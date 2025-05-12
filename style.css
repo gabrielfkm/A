@@ -75,12 +75,11 @@ h2 {
     max-width: 1850px;
 }
 .card_intro {
-    background-image: url('card_intro.jpg');
+    background-image: url('./img/card_intro.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
     border-radius: 8px;
-    color: black;
     max-width: 930px;
 }
 .card, .story, .highlight, .card_sup, .cards_inf {
