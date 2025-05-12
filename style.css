@@ -75,14 +75,14 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     color: black;
-    width: 50%;
+    max-width: 1850px;
 }
 .card_intro {
     background: #eee;
     padding: 20px;
     border-radius: 8px;
     color: black;
-    width: 50%;
+    max-width: 930px;
 }
 .card, .story, .highlight, .card_sup, .cards_inf {
     background: #eee;
