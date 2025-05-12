@@ -50,9 +50,6 @@ h2 {
 }
 
 .container {
-    background-image: url('card_intro.jpg');
-    background-size: cover;
-    background-position: center;
     border-radius: 15px;
     padding: 20px;
     color: white;
@@ -78,7 +75,9 @@ h2 {
     max-width: 1850px;
 }
 .card_intro {
-    background: #eee;
+    background-image: url("card_intro.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 20px;
     border-radius: 8px;
     color: black;
