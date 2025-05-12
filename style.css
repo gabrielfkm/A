@@ -75,7 +75,7 @@ h2 {
     max-width: 1850px;
 }
 .card_intro {
-    background-image: url("card_intro.jpg");
+    background-image: url('card_intro.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
